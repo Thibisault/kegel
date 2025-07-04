@@ -107,6 +107,9 @@
     </div>
 
 <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/kegel/pwabuilder-sw.js');
+  }
 (function(){
 const listEl = document.getElementById('cycle-list');
 const addBtn = document.getElementById('add-btn');
