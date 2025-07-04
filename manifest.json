@@ -1,8 +1,10 @@
 {
   "name": "Kegel Timer",
   "short_name": "Kegel",
-  "start_url": "/index.html",
+  "description": "Minuteur d’exercices Kegel hors-ligne",
+  "start_url": "/kegel/index.html",
   "display": "standalone",
+  "orientation": "portrait",     
   "background_color": "#ffffff",
   "theme_color": "#4f46e5",
   "icons": [
